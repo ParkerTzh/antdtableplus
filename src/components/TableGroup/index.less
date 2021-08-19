@@ -1,0 +1,148 @@
+// 奇数行
+.ant-table-tbody > tr:nth-child(odd) > td {
+  background-color: #fafafa;
+}
+
+// 偶数行
+.ant-table-tbody > tr:nth-child(even) > td {
+  background-color: #fff;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  background: unset !important;
+  cursor: col-resize;
+}
+
+//编辑样式
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 3px 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  min-height: 26px;
+  padding: 1px 11px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}
+
+//弹出条件筛选
+.column-search {
+  padding: 0 8px;
+  > div {
+    padding: 10px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    > * {
+      margin-right: 8px;
+    }
+    cursor: pointer;
+  }
+  .column-search-sort {
+    > div {
+      > * {
+        margin-right: 8px;
+      }
+    }
+    > div:last-of-type {
+      padding-top: 15px;
+    }
+  }
+  .column-search-button {
+    padding: unset;
+    text-align: right;
+    border-bottom: unset;
+  }
+  .h-ic:hover {
+    color: #1890ff;
+  }
+  .h-ic.filter {
+    background: #fafafa;
+  }
+  .h-ic.lock {
+    .locking {
+      color: #1890ff;
+    }
+    .cancel-lock {
+      color: orangered;
+    }
+  }
+  .h-ic {
+    .select-props-list {
+      .ant-checkbox-wrapper {
+        display: flex !important;
+        line-height: 30px;
+      }
+      .ant-checkbox-group {
+        > * {
+          display: block;
+          line-height: 26px;
+        }
+        .ant-checkbox-group-item {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 头部操作栏
+.top-operations {
+  padding: 12px 20px;
+  background: #fff;
+  border-bottom: solid 2px #1890ff;
+  .checked-num {
+    margin-right: 20px;
+  }
+  .btn-group {
+    .ant-space-item {
+      margin-right: 16px !important;
+    }
+  }
+  > * {
+    display: inline-block;
+  }
+}
+
+// 表格头部筛选按钮
+.ant-table-filter-trigger {
+  background: #fafafa;
+}
+
+.ant-table-tbody > tr > td {
+  //padding: 11px !important;
+}
+
+.ant-table.ant-table-small .ant-table-tbody > tr > td,
+.ant-table.ant-table-small tfoot > tr > th,
+.ant-table.ant-table-small tfoot > tr > td {
+  padding: 3px 8px !important;
+  //display: inline-block;
+  //white-space: nowrap;
+  //overflow: hidden;
+  //text-overflow:ellipsis;
+}
+
+.ant-table-tbody {
+  font-size: 13px;
+}

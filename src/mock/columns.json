@@ -1,0 +1,104 @@
+[
+  {
+    "title": "用户id",
+    "dataIndex": "id",
+    "key": "id",
+    "width": 150,
+    "fixed": "left"
+  },
+  {
+    "title": "用户名",
+    "dataIndex": "oppty_name",
+    "key": "oppty_name",
+    "width": 160,
+    "editable": true,
+    "fixed": "left"
+  },
+  {
+    "title": "项目名称",
+    "dataIndex": "project_name",
+    "key": "project_name",
+    "width": 180
+  },
+  {
+    "title": "客户名称",
+    "dataIndex": "client_name",
+    "key": "client_name",
+    "width": 180
+  },
+  {
+    "title": "用户产品",
+    "dataIndex": "product",
+    "key": "product",
+    "width": 160,
+    "editable": true
+  },
+  {
+    "title": "产品二级",
+    "dataIndex": "product_2rd",
+    "key": "product_2rd",
+    "width": 160,
+    "editable": true
+  },
+  {
+    "title": "产品来源",
+    "dataIndex": "oppty_source",
+    "key": "oppty_source",
+    "width": 150,
+    "editable": true
+  },
+  {
+    "title": "行业",
+    "dataIndex": "industry",
+    "key": "industry",
+    "width": 150,
+    "editable": true
+  },
+  {
+    "title": "产品状态",
+    "dataIndex": "oppty_status",
+    "key": "oppty_status",
+    "width": 150,
+    "editable": true
+  },
+  {
+    "title": "产品金额",
+    "dataIndex": "quote_amt",
+    "key": "quote_amt",
+    "type": "number",
+    "width": 150
+  },
+  {
+    "title": "合同总金额",
+    "dataIndex": "contract_amt_sum",
+    "key": "contract_amt_sum",
+    "type": "number",
+    "width": 150
+  },
+  {
+    "title": "成交概率",
+    "dataIndex": "report_prob",
+    "key": "report_prob",
+    "width": 150,
+    "editable": true
+  },
+  {
+    "title": "备注",
+    "dataIndex": "extra_comment",
+    "key": "extra_comment",
+    "width": 180,
+    "editable": true
+  },
+  {
+    "title": "插入时间",
+    "dataIndex": "insert_time",
+    "key": "insert_time",
+    "width": 160
+  },
+  {
+    "title": "更新时间",
+    "dataIndex": "update_time",
+    "key": "update_time",
+    "width": 160
+  }
+]
