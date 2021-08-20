@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/antdtableplus/static/css/main.9431ff51.chunk.css",
+    "main.js": "/antdtableplus/static/js/main.5bce14fa.chunk.js",
+    "main.js.map": "/antdtableplus/static/js/main.5bce14fa.chunk.js.map",
+    "runtime-main.js": "/antdtableplus/static/js/runtime-main.03cbab29.js",
+    "runtime-main.js.map": "/antdtableplus/static/js/runtime-main.03cbab29.js.map",
+    "static/css/2.5eb0c9b4.chunk.css": "/antdtableplus/static/css/2.5eb0c9b4.chunk.css",
+    "static/js/2.780d7ecb.chunk.js": "/antdtableplus/static/js/2.780d7ecb.chunk.js",
+    "static/js/2.780d7ecb.chunk.js.map": "/antdtableplus/static/js/2.780d7ecb.chunk.js.map",
+    "static/js/3.c82cf0cf.chunk.js": "/antdtableplus/static/js/3.c82cf0cf.chunk.js",
+    "static/js/3.c82cf0cf.chunk.js.map": "/antdtableplus/static/js/3.c82cf0cf.chunk.js.map",
+    "index.html": "/antdtableplus/index.html",
+    "static/css/2.5eb0c9b4.chunk.css.map": "/antdtableplus/static/css/2.5eb0c9b4.chunk.css.map",
+    "static/css/main.9431ff51.chunk.css.map": "/antdtableplus/static/css/main.9431ff51.chunk.css.map",
+    "static/js/2.780d7ecb.chunk.js.LICENSE.txt": "/antdtableplus/static/js/2.780d7ecb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03cbab29.js",
+    "static/css/2.5eb0c9b4.chunk.css",
+    "static/js/2.780d7ecb.chunk.js",
+    "static/css/main.9431ff51.chunk.css",
+    "static/js/main.5bce14fa.chunk.js"
+  ]
+}
